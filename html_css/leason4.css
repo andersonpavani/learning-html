@@ -1,0 +1,17 @@
+html {
+    font-size: 20px;
+}
+
+.div {
+    font-size: 10px;
+}
+
+.em {
+    height: 10em; /*'1em' equivale ao tamanho da fonte do elemento pai*/
+    background-color: antiquewhite;
+}
+
+.rem {
+    height: 10rem; /*'1rem' equivale ao tamanho da fonte do elemento root (html)*/
+    background-color: antiquewhite;
+}

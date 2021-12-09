@@ -1,0 +1,19 @@
+.container {
+    padding: 50px;
+}
+
+.img-float {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.div-float {
+    overflow: auto;
+}
+
+.clear {
+    clear: both;
+}

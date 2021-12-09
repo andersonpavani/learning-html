@@ -1,9 +1,13 @@
+body {
+    margin: 0px;
+}
+
 .div-std {
     border: 1px solid silver;
-    border-radius: 5px;
+    border-radius: 50px;
     height: 100px;
-    margin-bottom: 10px;
-    padding-left: 12px;
+    margin: 10px;
+    padding: 0px 12px;
 }
 
 .div-bg {
@@ -21,4 +25,49 @@
 
 .variant {
     font-variant: small-caps;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: #333;
+    padding: 20px;
+    margin: 10px;
+
+    /*display: none; /*Oculta elemento na tela*/
+    /*display: block; /*Display padrão, ocupa 100% do width disponível*/
+    /*display: inline; /*Coloca tudo na mesma linha, porém não aceita definições de largura e altura, deformando as DIVs*/
+    display: inline-block;
+}
+
+.texto-sem-margem {
+    margin: 0px;
+}
+
+.position {
+    height: 100px;
+    width: 200px;
+    background-color: antiquewhite;
+}
+
+.static {
+    position: static; /*Posicionamento padrão dos componentes*/
+}
+
+.relative {
+    position: relative; /*Posicionamento relativo ao posicionamento original*/
+    top: 100px;
+    left: 200px;
+}
+
+.absolute {
+    position: absolute; /*Posicionamento absoluto dentro do elemento pai*/
+    top: 100px;
+    left: 200px;
+}
+
+.fixed {
+    position: fixed; /*Posicionamento absoluto dentro do browser, mesmo com scrool*/
+    top: 100px;
+    left: 200px;
 }
